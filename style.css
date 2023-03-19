@@ -1,6 +1,9 @@
 .hello{
-    width:30%;
-    background-color: rgb(247, 243, 243);
+    background-color: rgb(148, 144, 147);
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10%;
+    
 }
 h2{
     text-align: center;
@@ -8,4 +11,8 @@ h2{
 .done{
     margin-left:40%;
    
+}
+
+.usern{
+    padding-left: 5px;
 }
