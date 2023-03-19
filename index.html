@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Form</title>
 </head>
-<body>
+<body style="background-color: rgb(4, 106, 164);">
     
     <script src="main.js"></script>
     <form name="login" onsubmit="return validation()" class="hello">
@@ -17,12 +17,38 @@
             <label><b>Username:</b>&nbsp;</label>
             <input type="text" name="name" placeholder="username"><br><br>
             <label><b>Email:</b>&nbsp;</label>
-            <input type="text" name="email" placeholder="Email"><br><br>
-            <label>Phone Nunber:</label>
-            <input type="number" name="123" placeholder="+880XXXXXXXXXX">
+            <input  type="text" name="email" placeholder="Email"><br><br>
+            <label><b>Phone Nunber: </b></label>
+            <input  type="text" name="num" placeholder="+880XXXXXXXXXX">
             <br><br>
-            <label>Password:</label>
-            <input type="password" name="password" placeholder="******">
+            <label><b>Password:</b></label>
+            <input  type="password" name="password" placeholder="******">
+            <br><br>
+            <label><b>Gender:</b></label>
+            <input  type="radio" name="gender" placeholder="">
+            <label>Male</label>
+            <input type="radio" name="gender2" placeholder="">
+            <label>Female</label>
+            <input type="radio" name="gender3" placeholder="">
+            <label>Others</label>
+            <br><br>
+            <label><b>Country:</b></label>
+            <select>
+                <option>Chose Country</option>
+                <option>Bangladesh</option>
+                <option>India</option>
+                <option>Pakistan</option>
+                <option>China</option>
+            </select>
+            <br><br>
+            <label><b>Features are:</b></label>
+            <ul type="square">
+                <li>C++</li>
+                <li>Python</li>
+                <li>Java</li>
+            </ul>
+
+
             <br><br><br>
             <input class="done" type="submit" name="submit" value="Submit">
 
