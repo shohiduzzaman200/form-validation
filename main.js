@@ -18,7 +18,7 @@ function validation(){
         alert("First letter @,_and also ! are not allow");
         return;
     }
-    if(eml.charAt(eml.slice(0,1)=='@' || eml.length-10)!='@' || eml.charAt(eml.length-9)!='g' || eml.charAt(eml.length-8)!='m' || eml.charAt(eml.length-7)!='a' || eml.charAt(eml.length-6)!='i' || eml.charAt(eml.length-5)!='l' || eml.charAt(eml.length-4)!='.' || eml.charAt(eml.length-3)!='c' || eml.charAt(eml.length-2)!='o' || eml.charAt(eml.length-1)!='m'){
+    if(eml.slice(0,1)=='@' || eml.length-10)!='@' || eml.charAt(eml.length-9)!='g' || eml.charAt(eml.length-8)!='m' || eml.charAt(eml.length-7)!='a' || eml.charAt(eml.length-6)!='i' || eml.charAt(eml.length-5)!='l' || eml.charAt(eml.length-4)!='.' || eml.charAt(eml.length-3)!='c' || eml.charAt(eml.length-2)!='o' || eml.charAt(eml.length-1)!='m'){
         alert("Invalid email address");
         return;
     }
